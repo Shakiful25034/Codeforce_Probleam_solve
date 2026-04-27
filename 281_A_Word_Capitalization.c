@@ -5,7 +5,7 @@
  language    : C
  modified    : 2026-04-27
  link        : https://codeforces.com/problemset/problem/281/A
-
+============================================================================
 */  
 
 #include<stdio.h>
