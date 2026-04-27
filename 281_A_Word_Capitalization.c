@@ -3,7 +3,7 @@
  Name        : 281_A_Word_Capitalization.c
  Author      : S. M. shakiful Alam
  language    : C
- modified    : 2024-06-01
+ modified    : 2026-04-27
  link        : https://codeforces.com/problemset/problem/281/A
 
 */  
