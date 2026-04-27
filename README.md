@@ -1,1 +1,1 @@
-# Codeforce_Probleam_solve in c
+# Codeforce_Probleam_solve in C
