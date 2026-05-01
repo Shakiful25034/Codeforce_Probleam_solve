@@ -46,7 +46,7 @@ int main()
         mod = mod%4; 
 
         step3 = mod/3;
-        mod = mod%5;
+        mod = mod%3;
 
         step2 = mod/2;
         mod = mod%2;
