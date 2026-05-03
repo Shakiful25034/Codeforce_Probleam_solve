@@ -1,6 +1,6 @@
 /*
 ============================================================================
- Name        : Nearly_Lucky_Number
+ Name        : Nearly Lucky Number
  Author      : S. M. shakiful Alam
  language    : C
  created     : 03-May-2026
@@ -17,17 +17,17 @@
 #include<stdlib.h>
 
 
-int is_lucky(int count)
+int is_lucky(int count) // the function will receive the total number number of 4 and 7 in the number 
 {
     int mod;
     
-    if(count==0)
+    if(count==0) 
     {
         return 0;
     }
     
     
-    while(count>0) //n/10 != 0
+    while(count>0) 
     {
         mod = count%10;
         if(mod == 4 || mod == 7)
@@ -44,11 +44,12 @@ int is_lucky(int count)
 
 int main()
 {
-    unsigned long long int n;
+    unsigned long long int n; //to store the input ehich is 1<=n<10^18
     scanf(" %llu", &n); 
      
-    int count = 0 ;
-    unsigned long long int digit;
+    int count = 0 ; //to count the total number of 4 and 7 in the input number
+ 
+    unsigned long long int digit; //to store the mod of the number which is the last digit of the number 
     
     //to count total number of 4 and 7 in the digit
     while(n>0) 
